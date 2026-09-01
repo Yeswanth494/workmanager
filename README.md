@@ -1,4 +1,4 @@
-Yes. Copy and paste the following directly into the **README.md editor on GitHub**.
+
 
 # WorkSphere
 
