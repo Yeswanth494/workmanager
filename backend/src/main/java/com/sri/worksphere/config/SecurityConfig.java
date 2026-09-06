@@ -45,10 +45,9 @@ public class SecurityConfig {
         CorsConfiguration configuration =
                 new CorsConfiguration();
 
-        configuration.setAllowedOrigins(List.of(
+        configuration.setAllowedOriginPatterns(List.of(
                 "http://localhost:5173",
-                "https://workmanager-six.vercel.app",
-                "https://workmanager-ptfnjrnoi-srinivasa1.vercel.app"
+                "https://*.vercel.app"
         ));
 
         configuration.setAllowedMethods(
