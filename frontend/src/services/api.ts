@@ -1,8 +1,10 @@
 import axios from 'axios'
 import { storage } from '@/utils/storage'
 
+const apiBaseUrl = import.meta.env.VITE_API_URL || '/api'
+
 const api = axios.create({
-    baseURL: '/api',
+    baseURL: apiBaseUrl,
     headers: {
         'Content-Type': 'application/json',
     },
