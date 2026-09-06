@@ -47,7 +47,8 @@ public class SecurityConfig {
 
         configuration.setAllowedOrigins(List.of(
                 "http://localhost:5173",
-                "https://workmanager-srinivasa1.vercel.app"
+                "https://workmanager-six.vercel.app",
+                "https://workmanager-ptfnjrnoi-srinivasa1.vercel.app"
         ));
 
         configuration.setAllowedMethods(
